@@ -1,0 +1,27 @@
+{
+  "name": "simple-twitter-bot",
+  "version": "0.1.0",
+  "description": "A simple framework for creating a Twitter bot.",
+  "main": "bot.js",
+  "dependencies": {
+    "twit": "~1.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rfreebern/simple-twitter-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "twit",
+    "bot"
+  ],
+  "author": "Ryan N. Freebern",
+  "license": "MPL2.0",
+  "bugs": {
+    "url": "https://github.com/rfreebern/simple-twitter-bot/issues"
+  }
+}
