@@ -17,12 +17,12 @@ Twitter's streaming API.
 
 ## What Uses It
 
+* [@XsGonnaX](http://twitter.com/xsgonnax)
 * [@CoderShow](http://twitter.com/codershow)
 * [@boostrapghost](http://twitter.com/boostrapghost)
 * [@AskAndAnswerBot](http://twitter.com/askandanswerbot)
 
 ## License
 
-This Source Code Form is subject to the terms of the Mozilla Public License,
-v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain
-one at http://mozilla.org/MPL/2.0/.
+To the extent possible under law, Ryan Freebern has waived all copyright and
+related or neighboring rights to this work. [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
