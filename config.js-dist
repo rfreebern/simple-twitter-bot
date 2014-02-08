@@ -12,7 +12,7 @@ module.exports = {
         return true;
     },
 
-    response: function (tweet) {
+    respond: function (tweet) {
         return 'my response goes here';
     }
 };
