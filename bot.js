@@ -16,7 +16,7 @@ var stream = T.stream('statuses/filter', { track: Config.keywords });
 stream.on('tweet', function (tweet) {
     if (Config.valid(tweet)) {
         var response = Config.respond(tweet);
-        if (!Config.debug) {
+        if (!Config.debug && response) {
             T.post('statuses/update', { status: response }, function (err, reply) {
                 if (err) {
                     console.log(err);
@@ -26,6 +26,9 @@ stream.on('tweet', function (tweet) {
                 }
             });
         } else {
+            if (!response) {
+                response = '(no response)';
+            }
             var now = new Date();
             console.log('[' + now.toJSON() + '] ' + response);
         }
